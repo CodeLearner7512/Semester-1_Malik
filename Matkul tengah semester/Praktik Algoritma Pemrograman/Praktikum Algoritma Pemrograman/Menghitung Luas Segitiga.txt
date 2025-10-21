@@ -1,0 +1,8 @@
+#Declaration
+var Alas = (panjang alas)
+Var Tinggi = (Tinggi)
+
+#Equation
+Var Hasil = Alas*Tinggi/2
+
+Print("Luas segitiga Tersebut Adalah" + Hasil)

@@ -1,0 +1,48 @@
+Klasifikasi Kebutuhan Fungsional/Non-Fungsional
+
+Dengan hasil observasi & survey yang telah kami sajikan, kami dapat menarik kesimpulan bahwa...
+Dengan menggunakan data tersebut kami dapat mengklasifikasikan kebutuhan fungsional dan Non-Fungisonal sebagai berikut.
+
+Kebutuhan Fungsional dari Perspektif User:
+1.	Tampilan Registrasi User;
+2.	User dapat memasukkan E-Mail dan Password untuk Registrasi;
+3.	Sistem dapat mengirim Pesan Otomatis melalui E-Mail untuk memverifikasi E-Mail User;
+4.	User menerima Pesan E-Mail untuk verifikasi E-Mail sebagai Langkah akhir Registrasi; 
+5.	Tampilan Login User;
+6.	User dapat memasukkan E-Mail dan Password yang telah ter-Registrasi;
+7.	Tampilan Homepage yang memuat beberapa menu antara lain;
+8.	Menu Profil untuk menambahkan dan atau memperbarui informasi User;
+9.	Menu Profil Berisi Nama, E-Mail, Pekerjaan, Domisili, Foto Profil, dan Bio;
+10.	Kolom Feed yang memuat berita atau artikel yang relevan;
+11.	User dapat melakukan klik pada kolom Feed dan sistem akan secara langsung men-Redirect User ke laman berita atau artikel tersebut;
+12.	Menu Peta Digital;
+13.	Menu Peta Digital memuat tampilan peta seluruh wilayah Indonesia;
+14.	User dapat melihat Lokasi-lokasi yang telah ditandai dan mengakses informasi seputar Lokasi Sungai tersebut;
+15.	User dapat melakukan Input Lokasi, Nama Lokasi Sungai, Status Kebersihan dan Sanitasi;
+16.	User dapat menambahkan Attachment dalam bentuk Fotografi/Gambar;
+
+Kebutuhan Non-Fungsional dari Perspektif User:
+1.	Sebelum proses registrasi, User diminta untuk memilih pengaturan Bahasa;
+2.	Tampilan Registrasi User harus Responsif;
+3.	Pesan Verifikasi E-Mail untuk proses Registrasi berlaku hingga 24 Jam;
+4.	Jika pada saat Login, E-Mail dan atau Password yang dimasukkan oleh user salah atau tidak terdaftar ke database maka tampilkan pesan error yang mudah dipahami;
+5.	Jika pada saat Login, User salah memasukkan password sebanyak 3 kali berturut-turut maka user harus menunggu selama 30 detik agar bisa melakukan Login ulang;
+6.	Untuk memperbarui E-Mail pada menu Profil, User akan Kembali menerima Pesan verifikasi E-Mail ke E-Mail baru yang akan didaftarkan;
+7.	Bio pada menu Profil dapat memuat maksimal 200 Karakter;
+8.	Header Berita atau Artikel dalam kolom Feed dapat berganti setiap 5 detik; 
+Kebutuhan Fungsional dari Perspektif Developer dan Programmer:
+1.	Laman Login ke Database;
+2.	Developer harus memasukkan Username dan Password untuk bisa mengakses database;
+3.	Menggunakan DBMS MySQL untuk mengelola data User;
+4.	Menyiapkan Migrasi dari MySQL ke PostgreSQL jika terjadi lonjakan Memori/CPU;
+5.	Publikasi Repositori GIT untuk pengelolaan Version Control dari Software;
+6.	Repositori GIT bersifat terbuka;
+7.	Developer/Programmer harus meminta izin akses kepada Administrator untuk dapat menjadi Collaborator pada repositori;
+8.	Collaborator harus melakukan COMMIT untuk test perubahan pada repositori Local;
+9.	Collaborator dapat melakukan PUSH untuk memperbarui Repositori utama;
+10.	Developer/Programmer Non-Collaborator dapat melakukan PULL REQUEST untuk mengajukan perubahan dari Repositori Local ke Repositori Utama;
+
+Kebutuhan Non-Fungsional dari Perspektif Developer dan Programmer:
+1.	File README pada Repositori menggunakan Bahasa Inggris;
+2.	Developer/Programmer dapat menghubungi Administrator melalui E-Mail terkait pengajuan izin akses dan penambahan Collaborator di Repositori GIT;
+3.	Setiap aktivitas PUSH ke dalam Repositori utama harus di Dokumentasikan atau di Informasikan kepada Administrator;

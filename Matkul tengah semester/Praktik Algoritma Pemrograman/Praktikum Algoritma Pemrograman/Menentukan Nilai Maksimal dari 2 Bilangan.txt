@@ -1,0 +1,15 @@
+#Declaration
+var NilaiA = (int)
+var NilaiB = (int)
+var NilaiMaksimal 
+#Operations
+
+
+if NilaiA > NilaiB :
+	Then NilaiMaksimal = NilaiA
+elif NilaiA < NilaiB :
+	Then NilaiMaksimal = NilaiB
+elif Nilai ==  NilaiB :
+	Then NilaiMaksimal = NilaiA
+	
+Print("Nilai Maksimal = "+NilaiMaksimal)

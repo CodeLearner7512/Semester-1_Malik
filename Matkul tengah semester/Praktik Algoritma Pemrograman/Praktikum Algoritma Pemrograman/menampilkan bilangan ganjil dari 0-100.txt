@@ -1,0 +1,13 @@
+#Declaration
+var Bilangan = 0
+var UlangBilangan = 0
+
+
+#Operations
+
+
+for (loop Bilangan 100 kali):
+	UlangBilangan += 1
+	Hasil = Bilangan % 2
+	if (Hasil == 1)
+		print(Ulangbilangan)

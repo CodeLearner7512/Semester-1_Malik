@@ -1,0 +1,15 @@
+Menghitung Luas Lingkaran
+
+#Declaration
+var r = jari-jari
+var π1 = 3,14
+var π2 = 22/7
+
+
+#Equation
+var Hasil1= r*r*π1
+var Hasil2= r*r*π2
+
+Print("Luas Lingkaran tersebut Adalah"+Hasil1)
+Print("Luas Lingkaran tersebut Adalah"+Hasil2)
+

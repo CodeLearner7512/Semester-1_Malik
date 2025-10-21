@@ -1,0 +1,5 @@
+[{"Kode_matkul":"EE-110", "Mata_Kuliah":"Struktur Data", "Sks":3, "Semester":1},
+ {"Kode_matkul":"EE-111", "Mata_Kuliah":"K3", "Sks":2, "Semester":1},
+ {"Kode_matkul":"EE-310", "Mata_Kuliah":"Basis Data", "Sks":3, "Semester":4},
+ {"Kode_matkul":"Ku-234", "Mata_Kuliah":"Bahasa Indonesia", "Sks":2, "Semester":2},
+ {"Kode_matkul":"Mma-115", "Mata_Kuliah":"Matematika", "Sks":3, "Semester":1}]

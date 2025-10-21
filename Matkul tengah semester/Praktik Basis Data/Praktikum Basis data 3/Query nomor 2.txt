@@ -1,0 +1,91 @@
+CREATE TABLE tbl_mahasiswa (
+  Nim varchar(6) NOT NULL,
+  Nama text NOT NULL,
+  Alamat text NOT NULL,
+  Tgl_Lahir date NOT NULL,
+  Data_foto mediumblob,
+  Tipe_foto varchar(50),
+  PRIMARY KEY (Nim));
+  desc tbl_mahasiswa;
+  
+  
+ CREATE TABLE mata_kuliah (
+  Kode_matkul varchar(7) NOT NULL,
+  Mata_Kuliah varchar(20) NOT NULL,
+  Sks int(3) NOT NULL,
+  Semester int(2) NOT NULL,
+  PRIMARY KEY (Kode_matkul));
+  desc mata_kuliah;
+  
+  
+  CREATE TABLE tbl_nilai (
+  No int not null auto_increment,
+  kd_matkul varchar(7) NOT NULL,
+  nim varchar(6) NOT NULL,
+  nama text,
+  Index_nilai varchar(3),
+  PRIMARY KEY (No),
+  FOREIGN KEY (kd_matkul) REFERENCES mata_kuliah(kode_matkul),
+  FOREIGN KEY (nim) REFERENCES tbl_mahasiswa(Nim));
+  desc tbl_nilai;
+  
+  
+  
+ delimiter $$
+ insert into tbl_mahasiswa 
+ (Nim, Nama,Alamat,Tgl_Lahir,Tipe_foto)
+ values
+ ("980001", "Ali Akbar", "Jl. Merdeka 10, jakarta 40121", "1979-01-02", "png"),
+ ("980002", "Budi haryanto", "Jl Gajah Mada 2,jakarta", "1978-10-06", "jpg");
+ insert into tbl_mahasiswa 
+ (Nim, Nama,Alamat,Tgl_Lahir)
+ values
+ ("980003", "Imam Faisal", "Kom.Griya Asri D-2 Depok 40151", "1978-05-13"),
+ ("980004", "Indah Susanti", "Jl.Adil No. 123 Bogor 43212", "1979-06-21")$$
+ delimiter ;
+ select * from tbl_mahasiswa;
+ 
+ 
+ 
+ insert into mata_kuliah
+ values
+ ("EE-110", "Struktur Data", 3, 1),
+ ("EE-111", "K3", 2, 1),
+ ("EE-310", "Basis Data", 3, 4),
+ ("Ku-234", "Bahasa Indonesia", 2, 2),
+ ("Mma-115", "Matematika", 3, 1);
+ select * from mata_kuliah;
+ 
+ 
+ 
+ delimiter $$
+ insert into tbl_nilai
+ values
+ (1, "EE-110", "980001", "Ali Akbar","A"),
+ (2, "EE-110", "980004", "Indah Susanti","B");
+ insert into tbl_nilai
+ (No,kd_matkul,nim,nama)
+ values
+ (3, "EE-111", "980001", "Ali  Akbar"),
+ (4,"EE-111", "980002", "Budi Hayanto");
+ insert into tbl_nilai
+ values
+ (5, "Ku-234", "980004", "Indah Susanti","B"),
+ (6, "Mma-115", "980001", "Ali Akbar","C")$$
+ delimiter ;
+ select * from tbl_nilai;
+ 
+ 
+ 
+ drop table mata_kuliah;
+ drop table tbl_mahasiswa;
+ drop table tbl_nilai;
+ 
+ 
+ alter table tbl_nilai
+ drop column nama;
+ desc tbl_nilai;
+ 
+ alter table tbl_mahasiswa
+ add column tempat_lahir text;
+ desc tbl_mahasiswa;

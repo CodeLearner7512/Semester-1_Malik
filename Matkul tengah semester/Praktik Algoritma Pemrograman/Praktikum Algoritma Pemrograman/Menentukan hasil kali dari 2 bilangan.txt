@@ -1,0 +1,8 @@
+#Declaration
+var NilaiA = (int)
+var NilaiB = (int)
+ 
+#Operations
+var Hasil = NilaiA * NilaiB
+
+Print("Hasilnya adalah = "+Hasil)

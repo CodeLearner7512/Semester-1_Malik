@@ -1,0 +1,20 @@
+#Declaration
+var Hari = (int)
+
+
+#Operations
+
+if Hari == 1 :
+	Print("senin")
+elif Hari == 2 :
+	Print("selasa")
+elif Hari == 3 :
+	Print("Rabu")
+elif Hari == 4 :
+	Print("Kamis")
+elif Hari == 5 :
+	Print("Jumat")
+elif Hari == 6 :
+	Print("Sabtu")
+elif Hari == 7 :
+	Print("Rabu")

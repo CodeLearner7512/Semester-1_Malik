@@ -1,0 +1,10 @@
+#Declaration
+var Bilangan = (int)
+ 
+#Operations
+var Hitung = Bilangan % 2
+
+if Hasil = 0:
+	Then Print("genap")
+else:
+	Then Print("ganjil")

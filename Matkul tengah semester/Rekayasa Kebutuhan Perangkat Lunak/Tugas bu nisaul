@@ -1,0 +1,54 @@
+A. Rumusan Masalah
+
+1. Bagaimana masyarakat bisa mengakses informasi yang akurat mengenai kualitas sanitasi air sungai di wilayah mereka ?
+
+2. Bagaimana cara meningkatkan kesadaran masyarakat terhadap kondisi kebersihan sungai secara real-time ?
+
+3. Bagaimana teknologi peta digital dapat dimanfaatkan untuk mempermudah akses informasi mengenai pencemaran sungai ?
+
+4. Bagaimana cara melibatkan masyarakat dalam memberikan data lapangan yang dapat membantu pemantauan kebersihan sungai?
+
+5. Bagaimana cara meningkatkan transparansi data dan statistik yang mendukung berbagai gerakan sanitasi sungai ?
+
+
+B. Ide
+
+Kami memiliki ide dalam merancang kebutuhan pembuatan sebuah aplikasi berbasis peta digital yang menyediakan informasi tentang kualitas sanitasi air di suatu daerah sungai.
+Aplikasi ini tidak hanya menampilkan data hasil pemantauan (baik dari instansi terkait maupun sensor lapangan), tetapi juga memungkinkan partisipasi masyarakat dalam bentuk pengajuan update data, review, laporan kondisi, dan rekomendasi tindak lanjut.
+
+Fitur utama:
+
+1.) Peta interaktif dengan penanda kondisi sanitasi setiap titik sungai.
+
+2.) Penyajian informasi detail mengenai daerah sungai secara akurat.
+
+3.) Penyajian informasi lapangan mengenai tingkat sanitasi air sungai yang akan diuji dengan bantuan alat pengukur kualitas air seperti pH meter, Turbidity meter, ORP (Oxidation-Reduction Potential) meter,TDS (Total Dissolved Solids) meter, dsb.
+
+4.) Pendataan dan Dokumentasi terkait kegiatan perbaikan atau pembersihan sungai.
+
+5.) Rekomendasi tindakan dengan menggunakan klasifikasi level sanitasi air sungai (misalnya mengklasifikasikan air sungai ke beberapa level seperti Fungsional, Butuh perbaikan, atau tidak fungsional).
+
+6.) Statistik dan analisis sederhana (tingkat pencemaran, perkembangan dari waktu ke waktu).
+
+7.) Pengajuan update informasi terkait suatu daerah sungai oleh end user untuk memberi informasi tambahan dan memperbarui status sungai secara berkala.
+
+C. Target
+
+1. Memberikan informasi akurat terkait sanitasi air sungai di suatu wilayah.
+
+2. Memberikan rekomendasi langkah pencegahan dan tindak lanjut untuk menjaga kebersihan sungai.
+
+3. Mengurangi risiko kesehatan akibat pencemaran sungai terhadap masyarakat sekitar.
+
+4. Meningkatkan partisipasi masyarakat dalam menjaga kebersihan lingkungan.
+
+
+
+
+D. Riset Teknologi Serupa
+
+Sungai Watch (Indonesia): Sebuah komunitas yang memantau pencemaran sungai, tapi belum terintegrasi dalam aplikasi digital berskala nasional.
+
+mWater: aplikasi global untuk monitoring kualitas sumber air.Namun karena cakupannya secara global maka penyajian data sumber air belum merata.
+
+Safecast (lebih berfokus ke radiasi, tapi modelnya mirip: crowdsourcing data lingkungan).
