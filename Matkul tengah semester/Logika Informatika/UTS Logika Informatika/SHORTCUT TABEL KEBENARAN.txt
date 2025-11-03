@@ -1,0 +1,68 @@
+Kolom A1 = A | B | C |
+
+Kolom B1 = Banyaknya variabel/proposisi contoh 3 (format --> Number --> Custom --> type --> ';;;')
+
+Kolom A3 = =IF(ROW(A3)-ROW($A$3)+1<=2^$B$1;
+  SUBSTITUTE(
+    SUBSTITUTE(
+      TEXT(DEC2BIN(2^$B$1 - (ROW(A3)-ROW($A$3)+1); $B$1);
+      REPT("0"; $B$1));
+    "0"; "F | ");
+  "1"; "T | ");
+"")
+
+
+Format Simbol Proposisi:
+
+Ubah font cell ke "Cambria Math" 
+
+Negasi (NOT) = =UNICHAR(172)
+Konjungsi (AND) = =UNICHAR(8743)
+Disjungsi (OR) = =UNICHAR(8744)
+Implikasi = =UNICHAR(8594)
+BiImplikasi = =UNICHAR(8596)
+Ekuivalen = =UNICHAR(8801)
+
+	contoh Penggunaan:	=UNICHAR(172) & "A"
+
+
+list semua simbol proposisi dan unicode :
+¬	=UNICHAR(172)	U+00AC	Negation / NOT
+∧	=UNICHAR(8743)	U+2227	Conjunction / AND
+∨	=UNICHAR(8744)	U+2228	Disjunction / OR
+⊕	=UNICHAR(8853)	U+2295	Exclusive OR (XOR)
+→	=UNICHAR(8594)	U+2192	Implication / “If ... then ...”
+⇒	=UNICHAR(8658)	U+21D2	Strong implication (material implication)
+↔	=UNICHAR(8596)	U+2194	Biconditional / “If and only if”
+⇔	=UNICHAR(8660)	U+21D4	Logical equivalence (strong biconditional)
+≡	=UNICHAR(8801)	U+2261	Equivalence / Identical equality (“is logically equivalent to”)
+⊢	=UNICHAR(8870)	U+22A2	Entails / syntactic consequence
+⊨	=UNICHAR(8872)	U+22A8	Semantically entails / logical consequence
+⊥	=UNICHAR(8869)	U+22A5	Contradiction / False
+⊤	=UNICHAR(8868)	U+22A4	Tautology / True
+∴	=UNICHAR(8756)	U+2234	Therefore
+∵	=UNICHAR(8757)	U+2235	Because
+
+∀	=UNICHAR(8704)	U+2200	For all (universal quantifier)
+∃	=UNICHAR(8707)	U+2207	There exists (existential quantifier)
+∄	=UNICHAR(8708)	U+2208	There does not exist
+∈	=UNICHAR(8712)	U+2208	Element of
+∉	=UNICHAR(8713)	U+2209	Not an element of
+⊂	=UNICHAR(8834)	U+2282	Subset of
+⊃	=UNICHAR(8835)	U+2283	Superset of
+⊆	=UNICHAR(8838)	U+2286	Subset or equal
+⊇	=UNICHAR(8839)	U+2287	Superset or equal 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
