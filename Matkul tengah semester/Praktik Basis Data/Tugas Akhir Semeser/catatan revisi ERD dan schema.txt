@@ -1,0 +1,9 @@
+1. komentar
+2. Verifikasi Email
+3. Foto + Pekerjaan atribut user
+4. Artikel
+
+
+1. 1 user mengisi banyak kuesioner, kuesioner dan komentar 2 entitas berbeda
+	sehingga relasi nya harus berpisah
+2. hapus laporan_sungai, user melaporkan sungai, sungai ke admin
